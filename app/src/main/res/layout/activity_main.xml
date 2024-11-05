@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--水平线性布局嵌套垂直线性布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-320dp">
+<!--        第一个，取消注释就能看-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="left"-->
+<!--            android:orientation="horizontal">-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--            <TextView-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10px"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@color/black"-->
+<!--                android:text="one two"-->
+<!--                android:textSize="30dp" />-->
+<!--        </LinearLayout>-->
+<!--第二个-->
+<!--      <include layout="@layout/activity_table" />-->
+<!--        第三个-->
+<!--          <include layout="@layout/activity_constaintlayout"/>-->
+<!--        第四个-->
+<!--        <include layout="@layout/activity_finnal"/>-->
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

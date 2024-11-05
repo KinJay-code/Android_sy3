@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/homework3"
+    tools:ignore="MissingClass">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:listSelector="@color/orange" />
+
+        <Button
+            android:id="@+id/animalbutton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/orange" />
+        <TextView
+            android:id="@+id/test_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用于测试"/>
+
+
+        <TextView
+                android:id="@+id/selected_count_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="当前选中了0项"
+                android:textSize="18sp"
+                android:gravity="center" />
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@color/orange"
+            android:choiceMode="multipleChoice">
+        </ListView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
